@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Quiz</title>
+	<style>
+			body{
+				background-color: #333;
+				color: #cba;
+				/* font-family: helvetica, trebuchet, verdana, arial, sans-serif; */
+				font-family: 'ubuntu mono', consolas, monospace;
+				font-size: 20px;
+			}
+			section{
+				display: block;
+				width: 800px;
+				margin: auto;
+				border-top: solid #963 1px;
+				border-bottom: solid #963 1px;
+				box-sizing: border-box;
+				margin: 20px auto;
+				padding: 20px;
+			}
+			pre{
+				font-size: 20;
+				font-family: 'ubuntu mono', consolas, monospace;
+				background-color: #262626;
+				color: #cfa;
+				width: 100%;
+				margin: 0px;
+				padding: 10px;
+				font-size: x-large;
+			}
+			p{
+				font-size: 20px;
+			}
+			li{
+				margin: 5px 20px;
+				padding: 10px 5px;
+				cursor: pointer;
+				list-style: none;
+			}
+			.green{	color: #0f6;}
+			.red{	color: #f06;}
+			body *{
+				transition-duration: 0.2s
+			}
+
+	</style>
+</head>
+<body>
+<section class="questionBlock">
+	<p>Uzupełnij ???, aby program wyświetlił na ekranie spodziewany wynik.</p>
+	<p>Spodziewany wynik</p>
+	<pre>4</pre>
+	<p></p>
+	<pre>def div(x,y):</pre>
+	<pre>	return x ??? y</pre>
+	<pre>result = div(24,6)</pre>
+	<pre>print(result)</pre></section>
+<section class="questionBlock">
+	<p>Program napisany w języku wysokiego poziomu jest nazywany:</p>
+	<li class="wrong">kodem ASCII</li>
+	<li class="wrong">kodem binarnym</li>
+	<li class="wrong">kodem maszynowym</li>
+	<li class="right">kodem źródłowym</li></section>
+<section class="questionBlock">
+	<p>Jakiego typu jest nastepujaca wartość?</p>
+	<pre>True</pre>
+	<li class="right">bool</li>
+	<li class="wrong">int</li>
+	<li class="wrong">float</li>
+	<li class="wrong">string</li></section>
+<section class="questionBlock">
+	<p>Wybierz prawdziwe stwierdzenia</p>
+	<li class="right">Nie można używać słów kluczowych jako nazw zmiennych w Pythonie</li>
+	<li class="wrong">Można używać słów kluczowych jako nazw zmiennych w Pythonie</li>
+	<li class="right">Nie można używać słów kluczowych jako nazw funkcji w Pythonie</li>
+	<li class="wrong">Można używać słów kluczowych jako nazw funkcji w Pythonie</li></section>
+<section class="questionBlock">
+	<p>Jaki jest domyślny typ zwracany przez funkcję len()?</p>
+	<li class="wrong">bool</li>
+	<li class="right">int</li>
+	<li class="wrong">float</li>
+	<li class="wrong">string</li></section>
+<section class="questionBlock">
+	<p>Funkcja `print()` jest przykładem</p>
+	<li class="right">funkcji wbudowanej</li>
+	<li class="wrong">funkcji zdefiniowanej przez użytkownika</li>
+	<li class="wrong">funkcji anonimowej</li>
+	<li class="wrong">metody produkcyjnej</li></section>
+<section class="questionBlock">
+	<p>Wstaw odpowiedni fragment kodu, aby wygenerował spodziewany wynik:</p>
+	<pre>Telewizja = Zło</pre>
+	<li class="wrong">print("Telewizja Zło", sep=" = ")</li>
+	<li class="wrong">print(Telewizja = Zło)</li>
+	<li class="wrong">print("Telewizja Zło", end=" = ")</li>
+	<li class="right">print("Telewizja = Zło")</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>a = 2</pre>
+	<pre>a = 2 * 'x'</pre>
+	<pre>print(a)</pre>
+	<li class="right">xx</li>
+	<li class="wrong">2x</li>
+	<li class="wrong">2</li>
+	<li class="wrong">Komunikat o błędzie</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>x = 'False'</pre>
+	<pre>y = 'True'</pre>
+	<pre>print(x or y)</pre>
+	<li class="wrong">'True'</li>
+	<li class="right">'False'</li>
+	<li class="wrong">1</li>
+	<li class="wrong">0</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>x = [1,2,3]</pre>
+	<pre>y = [1,2,3]</pre>
+	<pre>print(x is y)</pre>
+	<li class="wrong">Komunikat o błędzie</li>
+	<li class="wrong">[1,2,3]</li>
+	<li class="wrong">True</li>
+	<li class="right">False</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>x = (2,3,5,7)</pre>
+	<pre>y = x.index(5)</pre>
+	<pre>print(y)</pre>
+	<li class="right">2</li>
+	<li class="wrong">3</li>
+	<li class="wrong">5</li>
+	<li class="wrong">7</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>str = 'abcde'</pre>
+	<pre>i = len(str)//2</pre>
+	<pre>print(str[i])</pre>
+	<li class="wrong">a</li>
+	<li class="wrong">b</li>
+	<li class="right">c</li>
+	<li class="wrong">d</li></section>
+<section class="questionBlock">
+	<p>Jaki jest typ zmiennej `d` z poniższego programu?</p>
+	<pre>a = 11</pre>
+	<pre>b = a // 3</pre>
+	<pre>c = b and 'a'</pre>
+	<pre>d = a*b*c</pre>
+	<li class="right">str</li>
+	<li class="wrong">bool</li>
+	<li class="wrong">float</li>
+	<li class="wrong">int</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>x = 0 or 1 or 2 or 3</pre>
+	<pre>print(x)</pre>
+	<li class="wrong">0</li>
+	<li class="right">1</li>
+	<li class="wrong">2</li>
+	<li class="wrong">3</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>x = 7</pre>
+	<pre>if x > 7</pre>
+	<pre>	print(1)</pre>
+	<pre>elif x < 7</pre>
+	<pre>	print(2)</pre>
+	<pre>else</pre>
+	<pre>	print(3)</pre>
+	<li class="right">Komunikat o błędzie</li>
+	<li class="wrong">1</li>
+	<li class="wrong">2</li>
+	<li class="wrong">3</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>print(0 == False)</pre>
+	<li class="wrong">0</li>
+	<li class="wrong">1</li>
+	<li class="right">True</li>
+	<li class="wrong">False</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>def fun():</pre>
+	<pre>	yield 1</pre>
+	<pre>	yield 2</pre>
+	<pre>print(*fun())</pre>
+	<li class="wrong">1</li>
+	<li class="wrong">2</li>
+	<li class="right">1 2</li>
+	<li class="wrong">[1,2]</li></section>
+<section class="questionBlock">
+	<p>W poniższym kodzie zastosowano:</p>
+	<pre>str1 = 'abc'</pre>
+	<pre>str2 = 'cde'</pre>
+	<pre>str3 = str1 + str2</pre>
+	<li class="wrong">dodawanie</li>
+	<li class="wrong">interpolacje</li>
+	<li class="right">konkatenacje</li>
+	<li class="wrong">powielenie</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>i = 1</pre>
+	<pre>def fun():</pre>
+	<pre>	i = 2</pre>
+	<pre>	print(i, end='3')</pre>
+	<pre></pre>
+	<pre>fun()</pre>
+	<pre>print(i, end='4')</pre>
+	<li class="wrong">2324</li>
+	<li class="wrong">1324</li>
+	<li class="wrong">2413</li>
+	<li class="right">2314</li></section>
+<section class="questionBlock">
+	<p>Ile lini kodu wyświetli poniższy program?</p>
+	<pre>i = 1</pre>
+	<pre>if i:</pre>
+	<pre>	print(i)</pre>
+	<pre>elif i > 0:</pre>
+	<pre>	print(i)</pre>
+	<pre>if i == True:</pre>
+	<pre>	print(i)</pre>
+	<li class="wrong">0</li>
+	<li class="wrong">1</li>
+	<li class="right">2</li>
+	<li class="wrong">3</li></section>
+<section class="questionBlock">
+	<p>Jaki błąd składniowy występuje w poniższym kodzie?</p>
+	<pre>x = 'abc'</pre>
+	<pre>if 'a' in x: print('a')</pre>
+	<pre>elif: print('b')</pre>
+	<li class="wrong">Brak wciętych bloków kodu po `if` i po `else`</li>
+	<li class="right">Brak warunku w `elif`</li>
+	<li class="wrong">Brak `else` zamykającego ciąg 'if' => 'elif' => 'else'</li>
+	<li class="wrong">Kod nie zawiera błędów składniowych</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik poniższego programu?</p>
+	<pre>print(*'abc', sep='-',end='+')</pre>
+	<li class="wrong">abc</li>
+	<li class="wrong">a+b+c-</li>
+	<li class="right">a-b-c+</li>
+	<li class="wrong">Komunikat o błędzie</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wartoś zmiennej `y` z poniższego programu, zakładając, że użytkownik wprowadził `3`?</p>
+	<pre>x = input(1)</pre>
+	<pre>y = x*2</pre>
+	<li class="wrong">123</li>
+	<li class="wrong">11</li>
+	<li class="wrong">222</li>
+	<li class="right">33</li></section>
+<section class="questionBlock">
+	<p>Jaki jest typ zmiennej `z` z poniższego programu?</p>
+	<pre>x = 3</pre>
+	<pre>y = x / 2</pre>
+	<pre>z = y or x</pre>
+	<li class="wrong">str</li>
+	<li class="wrong">bool</li>
+	<li class="right">float</li>
+	<li class="wrong">int</li></section>
+<section class="questionBlock">
+	<p>Co wyświetli ten program?</p>
+	<pre>a = '3'</pre>
+	<pre>b = 4</pre>
+	<pre>print(a*b)</pre>
+	<li class="right">'3333'</li>
+	<li class="wrong">444</li>
+	<li class="wrong">12</li>
+	<li class="wrong">'12'</li></section>
+<section class="questionBlock">
+	<p>Co musimy podstawić pod ?????? aby uzyskać dostęp do drugiego elementu listy colors i wyświetlić go na ekranie?</p>
+	<p>Spodziewany wynik:</p>
+	<pre>green</pre>
+	<p>Kod:</p>
+	<pre>colors =  ['reg','green','blue','orange']</pre>
+	<pre>print(??????)</pre></section>
+<section class="questionBlock">
+	<p>Wstaw odpowiedni fragment kodu, aby program wyświetlił spodziewany wynik ("False").</p>
+	<pre>list = [False, True, "2"]</pre>
+	<pre>??????</pre>
+	<pre>print(not(c))</pre>
+	<li class="wrong">c = is not in list</li>
+	<li class="wrong">c = list[0]</li>
+	<li class="wrong">c = 0 is in list</li>
+	<li class="right">c = 0 in list</li></section>
+<section class="questionBlock">
+	<p>Jaki jest wynik działania poniższego programu?</p>
+	<pre>some1 = {'Andy':1, 'Judy':2, 'Mary':3}</pre>
+	<pre>some2 = some1</pre>
+	<pre>some1['John'] = 4</pre>
+	<pre>del some1</pre>
+	<pre>print(len(some2))</pre>
+	<li class="right">4</li>
+	<li class="wrong">0</li>
+	<li class="wrong">Komunikat o błędzie</li>
+	<li class="wrong">3</li></section>
+<section class="questionBlock">
+	<p>W jaki sposób skopiować istniejący słownik 'd' i przypisać skopiowaną zawartośc do 'd_copy'?</p>
+	<pre>d = {"A": 1, "B": 2, "C": 3}</pre>
+	<pre># Wstawkod tutaj.</pre>
+	<li class="wrong">d_copy = copy(d)</li>
+	<li class="wrong">d_copy = copy.d()</li>
+	<li class="wrong">d_copy = d[:]</li>
+	<li class="right">d_copy = d.copy()</li></section>
+<section class="questionBlock">
+	<p>Wybierz <u>prawdziwe</u> stwierdzenie:</p>
+	<li class="right">Instrukcja `yield` nie powoduje opuszczenia funkcji</li>
+	<li class="wrong">Pusta instrukcja `yield` po której nie występują żdane argument jest równa wyrażeniu `return None`</li>
+	<li class="wrong">Nie można wielokrotnie użyć instrukcji `yield` w jednej funkcji</li>
+	<li class="wrong">Funkcja zawsze musi posiadać instrukcję `yield`
+</li></section><script>console.log(1);
+document.querySelectorAll('.right').forEach((item) => {
+	console.log(item);
+	item.addEventListener('click',()=>{
+		item.classList.toggle('green')
+	})
+});
+document.querySelectorAll('.wrong').forEach((item) => {
+	console.log(item);
+	item.addEventListener('click',()=>{
+		item.classList.toggle('red')
+	})
+});
+</script></body></html>
