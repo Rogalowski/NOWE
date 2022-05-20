@@ -24,10 +24,6 @@
 <h1 align="center"> Tasks Python UczelniaIT-PCEP-PCAP </h1>
 
  
-Some tasks and homework  done in React and Redux
-
-
-
-# Tasks Python UczelniaIT-PCEP-PCAP
+Tasks Python UczelniaIT-PCEP-PCAP
 
   
